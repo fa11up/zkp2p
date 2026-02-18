@@ -20,8 +20,8 @@ def test_modules():
     """Test local modules"""
     print("Testing local modules...")
     try:
-        import config
-        import utils
+        import src.config as config
+        import src.utils as utils
         print("  ✓ Local modules loaded")
         print(f"    Payment methods: {', '.join(config.ALLOWED_PAYMENT_METHODS)}")
         print(f"    Currencies: {', '.join(config.ALLOWED_CURRENCIES)}")
@@ -36,7 +36,7 @@ def test_api():
     print("Testing Peerlytics API...")
     try:
         import requests
-        from config import PEERLYTICS_API_URL
+        from src.config import PEERLYTICS_API_URL
         
         response = requests.get(PEERLYTICS_API_URL, timeout=10)
         data = response.json()
@@ -59,7 +59,7 @@ def test_web3():
     print("Testing Web3 connection...")
     try:
         from web3 import Web3
-        from config import RPC_URL
+        from src.config import RPC_URL
         
         w3 = Web3(Web3.HTTPProvider(RPC_URL))
         

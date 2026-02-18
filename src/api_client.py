@@ -7,7 +7,7 @@ import os
 import json
 import requests
 from typing import Optional
-from config import PEERLYTICS_BASE_URL, ENDPOINTS
+from src.config import PEERLYTICS_BASE_URL, ENDPOINTS
 
 
 class PeerlyticsClient:

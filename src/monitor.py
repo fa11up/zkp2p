@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 from web3 import Web3
 from eth_account import Account
 
-from config import (
+from src.config import (
     RPC_URL,
     CHAIN_ID,
     CONTRACTS,
@@ -33,8 +33,8 @@ from config import (
     SSE_INTERVAL_MS,
     SSE_EVENT_TYPES,
 )
-from api_client import PeerlyticsClient
-from utils import (
+from src.api_client import PeerlyticsClient
+from src.utils import (
     wei_to_rate,
     is_buy_opportunity,
     is_sell_opportunity,

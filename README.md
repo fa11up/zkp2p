@@ -9,7 +9,7 @@
 pip install -r requirements.txt
 
 # Run the monitor
-python monitor.py
+python src/monitor.py
 ```
 
 That's it! The monitor will start finding profitable opportunities instantly.
