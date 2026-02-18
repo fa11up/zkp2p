@@ -22,8 +22,7 @@ ENDPOINTS = {
 # QuickNode RPC (for transactions)
 # =============================================================================
 CHAIN_ID = 8453  # Base
-QUICKNODE_API_KEY = "your_quicknode_api_key"  # <-- REPLACE with your QuickNode API key
-RPC_URL = "https://winter-evocative-panorama.base-mainnet.quiknode.pro/{QUICKNODE_API_KEY}/"
+RPC_URL = "https://winter-evocative-panorama.base-mainnet.quiknode.pro/7d3762abcffbbc9b37139e94d8124a17e84c41f9/"
 
 # =============================================================================
 # Contract addresses (Base)
