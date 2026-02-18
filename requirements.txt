@@ -1,0 +1,5 @@
+web3==7.14.0
+python-dotenv==1.2.1
+requests==2.32.5
+eth-account==0.13.7
+sseclient-py>=1.8.0
